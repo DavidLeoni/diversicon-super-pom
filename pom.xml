@@ -38,7 +38,7 @@
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<netbeans.hint.license>apache20</netbeans.hint.license>
 		<maven.version>3.0.4</maven.version>
-		<josman.version>0.7.0</josman.version>
+		<josman.version>0.8.0-SNAPSHOT</josman.version>
 		<diversicon.version>0.1.0-SNAPSHOT</diversicon.version>
 		<dkpro.uby.version>0.7.0</dkpro.uby.version>
 		<slf4j.version>1.7.21</slf4j.version> <!-- so we get org.slf4j.event.Level -->
@@ -536,11 +536,6 @@
 				<scope>compile</scope>
 			</dependency>
 
-			<dependency>
-				<groupId>eu.trentorise.opendata</groupId>
-				<artifactId>josman</artifactId>
-				<version>${josman.version}</version>
-			</dependency>
 
 
 			<!-- **************** PDEPENDENCIES FOR TESTING ******************* -->
