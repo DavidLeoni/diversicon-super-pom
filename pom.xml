@@ -516,6 +516,34 @@
 			</dependency>
 
 			<dependency>
+				<groupId>it.unitn.disi</groupId>
+				<artifactId>div-wn31-model</artifactId>
+				<version>${diversicon.version}</version>
+			</dependency>
+
+			<dependency>
+				<groupId>it.unitn.disi</groupId>
+				<artifactId>div-wn31-xml</artifactId>
+				<version>${diversicon.version}</version>
+			</dependency>
+
+			<dependency>
+				<groupId>it.unitn.disi</groupId>
+				<artifactId>div-wn31-sql</artifactId>
+				<version>${diversicon.version}</version>
+			</dependency>
+			
+			<dependency>
+				<groupId>it.unitn.disi</groupId>
+				<artifactId>div-wn31-h2db</artifactId>
+				<version>${diversicon.version}</version>
+			</dependency>
+			
+			
+			
+
+
+			<dependency>
 				<groupId>ch.qos.logback</groupId>
 				<artifactId>logback-classic</artifactId>
 				<version>${logback.version}</version>
