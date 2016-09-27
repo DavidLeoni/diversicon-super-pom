@@ -564,6 +564,12 @@
 				<scope>compile</scope>
 			</dependency>
 
+			<dependency>
+				<groupId>net.sf.extjwnl</groupId>
+				<artifactId>extjwnl</artifactId>
+				<version>1.9.1</version>
+			</dependency>	
+
 
 
 			<!-- **************** PDEPENDENCIES FOR TESTING ******************* -->
