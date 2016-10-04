@@ -45,7 +45,7 @@
 		<logback.version>1.0.13</logback.version>
 
 		<!-- todo check name is correct one -->
-		<diversicon.server>http://diversicon-kb.org</diversicon.server>
+		<diversicon.server>http://diversicon-kb.eu</diversicon.server>
 		<!-- at release time this gets overridden with diversicon.server.website -->
 		<diversicon.dev.server>classpath:</diversicon.dev.server>
 		<diversicon.manual.website>${diversicon.server}/manual</diversicon.manual.website>
