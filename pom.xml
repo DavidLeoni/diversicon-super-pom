@@ -500,7 +500,7 @@
 
 			<dependency>
 				<groupId>eu.kidf</groupId>
-				<artifactId>diversicon</artifactId>
+				<artifactId>diversicon-core</artifactId>
 				<version>${diversicon.version}</version>
 			</dependency>
 
