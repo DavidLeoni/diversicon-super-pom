@@ -49,6 +49,7 @@
 		<!-- at release time this gets overridden with diversicon.server.website -->
 		<diversicon.dev.server>classpath:</diversicon.dev.server>
 		<diversicon.manual.website>${diversicon.server}/manual</diversicon.manual.website>
+		<apache.http.version>4.4.1</apache.http.version>
 	</properties>
 
 
@@ -599,8 +600,32 @@
 				<version>1.2</version>
 			</dependency>
 
+			<dependency>
+				<groupId>org.apache.httpcomponents</groupId>
+				<artifactId>httpcore</artifactId>
+				<version>${apache.http.version}</version>
+			</dependency>
 
-			<!-- **************** PDEPENDENCIES FOR TESTING ******************* -->
+			<dependency>
+				<groupId>org.apache.httpcomponents</groupId>
+				<artifactId>httpmime</artifactId>
+				<version>${apache.http.version}</version>
+				<exclusions>
+					<exclusion>
+						<groupId>org.apache.httpcomponents</groupId>
+						<artifactId>httpcore</artifactId>
+					</exclusion>
+				</exclusions>
+			</dependency>
+
+			<dependency>
+				<groupId>org.apache.httpcomponents</groupId>
+				<artifactId>fluent-hc</artifactId>
+				<version>${apache.http.version}</version>
+			</dependency>
+
+
+			<!-- **************** DEPENDENCIES FOR TESTING ******************* -->
 			<dependency>
 				<groupId>junit</groupId>
 				<artifactId>junit</artifactId>
