@@ -1,6 +1,6 @@
 <p class="josman-to-strip">
 WARNING: THIS IS ONLY A TEMPLATE FOR THE DOCUMENTATION. <br/>
-RELEASE DOCS ARE ON THE <a href="http://davidleoni.github.io/diversicon/" target="_blank">PROJECT WEBSITE</a>
+RELEASE DOCS ARE ON THE <a href="http://diversicon-kb.eu/manual/diversicon-super-pom" target="_blank">PROJECT WEBSITE</a>
 </p>
 
 <p class="josman-to-strip" align="center">
