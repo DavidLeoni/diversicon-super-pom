@@ -9,9 +9,9 @@ RELEASE DOCS ARE ON THE <a href="http://diversicon-kb.eu/manual/diversicon-super
 </p>
 
 
-#### About Super POM
+#### About
 
-Super POM used by <a href="https://github.com/diversicon-kb/diversicon-core" target="_blank">Diversicon Java projects</a>.
+Super POM used by [Diversicon tools](http://diversicon-kb.eu/tools#java-libraries).
 
 Heavily inspired from [Tod Super POM](https://github.com/opendatatrentino/tod-super-pom), to manage repos and release you can use the same info scripts listed in that project.
 
